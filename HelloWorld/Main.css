@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 20, 2017, 1:37:21 PM
+    Author     : Steven Peters
+*/
+
+html {
+    background-image: url("Hello-World.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 200%;
+    width: 100%;
+}
+
+body {
+    color: black;
+    text-align: left;
+}
+
+#main {
+    background-color: white;
+    position: absolute;
+    width: 73%;
+    top: 5%;
+    bottom: 5%;
+    right: 5%;
+    font: 20px/35px arial;
+    text-align: justify;
+    text-indent: 30px;
+    overflow-y: scroll;
+    padding: 1%;
+}
+
+h1{
+    font: 900 40px "Times New Roman";
+    text-align: center;
+}
+
+#nav {
+    background-color: white;
+    position: absolute;
+    width: 14%;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    font: 20px/35px "Times New Roman";
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2017, 10:47:46 PM
+    Author     : Steven Peters
+*/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #DCE2EE;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+#picture {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 270px;
+    height: 500px;
+    width: 872px;
+}
+
+#titles {
+    margin: 0%;
+    position: absolute;
+    top: 0%;
+    width: 822px;
+}
+
+#bottom {
+    background-color: white;
+    height: 140px;
+    width: 872px;
+    position: absolute;
+    top: 725px;
+    text-align: center;
+}
+
+p {
+    margin: 0%;
+    text-align: center;
+}
+
+.headings {
+    color: white;
+    margin: 30px;
+    font: bold 25px Arial;
+}
+
+#smallheading {
+    font: bold 20px Arial;
+}
+
+#b1 {
+    position: relative;
+    top: 38px;
+    left: 10px;
+    font: 30px Marriweather;
+}
+
+#b2 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font: bold 17px Arial;
+}
+
+#b3 {
+    position: relative;
+    top: 40px;
+    font: bold 10px Arial;
+}
+
+#b4 {
+    position: relative;
+    top: 40px;
+    font: 12px Arial;
+}
+
+#image {
+    position: absolute;
+    top: 30px;
+    left: 320px;
+    height: 50px;
+    width: 50px;
+}
